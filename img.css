@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Londrina+Sketch&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.max-container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+  header {
+    position: sticky;
+    top: 0;
+    background: #faf5f5;
+  }
+
+nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex; 
+    justify-content: space-between; 
+    padding : 15px 0px ;
+
+  }
+
+  .left-nav{
+    font-weight: 1200;
+  }
+
+  .right-nav{
+    padding:0px 0px 0px 30px;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+   ul li {
+    display: inline-block;
+    position: relative;
+  }
+  ul li a {
+    width: 100px;
+    display: block;
+    padding : 7px 7px ;
+    color : antiquewhite;
+    background-color: black;
+    border: 0.5px solid antiquewhite;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  ul li ul.dropdown li {
+    display: block;
+  }
+
+  ul li ul.dropdown{
+    width: 100%;
+    background:#fff;
+    position:absolute;
+    z-index: 999;
+    display: none;
+  }
+
+  ul li a:hover{
+    background-color: silver;
+  }
+
+  ul li:hover ul.dropdown{
+    display: block;
+  }
+
+
+  section img {
+    width: 1350px;
+    height: 85vh;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-author {
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+    padding: 15px  0px;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  article {
+    margin-bottom: 50px;
+  }
+
